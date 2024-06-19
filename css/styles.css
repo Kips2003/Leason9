@@ -1,0 +1,312 @@
+html body{
+    width: 100%;
+    overflow-x: hidden;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 32px;
+    width: 100vw;
+    position: fixed;
+    background-color: white;
+}
+.navigation ul{
+    display: flex;
+    column-gap: 24px;
+}
+
+.action-button button{
+    width: 100px;
+    height: 48px;
+    border-radius: 32px;
+    background-color: #000000;
+    color: white;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+}
+.navigation a{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: right;
+    color: #000000;
+}
+.logo h1{
+    font-family: 'Inter';
+    font-size: 24.65px;
+    font-weight: 1000;
+    line-height: 26.41px;
+    gap: -0.44023728370666504px;
+    text-align: left;
+    color: #000000;
+}
+main{
+    padding-top: 96px;
+}
+.headline{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    align-items: start;
+    width: 490px;
+    height: 288px;
+}
+.first-section{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 130px;
+    row-gap: 0px;
+    align-items: center;
+    padding: 64px 0;
+}
+.headline h1{
+    font-family: 'Inter';
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: -1px;
+    text-align: left;
+    color: #000000;
+}
+.headline p{
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #000000;
+}
+.headline-div{
+    display: flex;
+    flex-direction: row;
+    padding-top: 16px;
+    column-gap: 20px;
+    row-gap: 0;
+}
+.headline-div button{
+    width: 100px;
+    height: 48px;
+    border-radius: 32px;
+    background-color: #000000;
+    color: white;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+}
+.headline-div p{
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    width: 236px;
+}
+.headline{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+.first-section-photo{
+    background-image: url(../images/ee47093265e15855f4fe1dbd5c1d3f3f.jpeg);
+    width: 490px;
+    height: 428px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+.feature{
+    width: 360px;
+    height: 116.2px;
+    padding: 0 24.65px 0 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.cicle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #000000;
+}
+.f{
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+.f p{
+    font-family: 'Inter';
+    font-weight: 900;
+    color: #000000
+}
+.feature-p{
+    font-family: 'Inter';
+    font-weight: 400;
+    color: #000000;
+}
+.section-two{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 0px;
+    flex-direction: row;
+    padding: 64px 0;
+    background-color:  #f3f3f3;
+}
+.section-three-photo{
+    background-image: url(../images/14b82f10e6fd4db41bffbe8b25bb6676.jpeg);
+    width: 503.5px;
+    height: 428px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+.section-three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 0;
+    flex-direction: row;
+    column-gap: 133px;
+    row-gap: 0px;
+    background-color: #000000;
+}
+.visitors-pa{
+    margin-bottom: 8px;
+}
+.visitors{
+    width: 503.5px;
+    height: 262px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    column-gap: 0;
+}
+.visitors h1{
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    color: #FFFFFF;
+    width: 503.5px;
+}
+.visitors p{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.visitors-p{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.section-four{
+    background: linear-gradient(80.53deg, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0) 100%), url(../images/d4b01e95bd5f617f0147062338f3b732.png) center/cover no-repeat;
+    width: 100vw;
+    height: 564px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+}
+.section-four p{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.section-four h1{
+    width: 540px;
+    font-family: 'Inter';
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.section-four button{
+    margin-top: 0;
+    width: 100px;
+    height: 48px;
+    border-radius: 32px;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+    border-width: 0px;
+}
+.logo-f h1{
+    font-family: 'Inter';
+    font-size: 24.65px;
+    font-weight: 1000;
+    line-height: 26.41px;
+    gap: -0.44023728370666504px;
+    text-align: left;
+    color: #FFFFFF;
+    width: 229px;
+}
+footer{
+    background-color: #000000;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    padding: 96px 0;
+    justify-content: center;
+    row-gap: 0;
+}
+.footer-navigation{
+    width: 228px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.media{
+    display: flex;
+}
+.footer-navigation a{
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.footer-navigation p{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: #FFFFFF;
+}

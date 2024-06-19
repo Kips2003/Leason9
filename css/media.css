@@ -1,0 +1,149 @@
+@media (max-width: 1024px) {
+    .navigation ul{
+        column-gap: 44px;
+    }
+    .first-section{
+        flex-direction: column;
+        padding: 32px 0;
+    }
+    .headline{
+        width: 630px;
+        align-items: center;
+        padding: 12px 0 0 0;
+        margin-bottom: 68px;
+    }
+    .headline p{
+        text-align: center;
+    }
+    .headline h1{
+        text-align: center;
+    }
+    .headline-div p{
+        width: 370px;
+    }
+    .headline-div{
+        align-items: center;
+    }
+    .first-section-photo{
+        width: 960px;
+        height: 450px;
+    }
+    .feature{
+        width: 279.33px;
+        padding: 0;
+    }
+    .section-two{
+        column-gap: 61px;
+        padding: 39px 0;
+    }
+    .section-three{
+        flex-direction: column;
+        row-gap: 64px;
+        padding: 32px 0 64px 0;
+    }
+    .section-three-photo{
+        width: 960px;
+        height: 550px;
+    }
+    .visitors{
+        flex-direction: row;
+        column-gap: 129px;
+        width: 960px;
+        height: 185px;
+    }
+    .visitors h1{
+        width: 415.5px;
+    }
+    .section-four{
+        height: 588px;
+        row-gap: 12px;
+    }
+    .section-four button{
+        margin-top: 20px;
+    }
+    .footer{
+        flex-direction: column;
+        row-gap: 48px;
+    }
+}
+@media (max-width: 744px){
+    .header{
+        padding: 24px;
+    }
+    .navigation ul{
+        column-gap: 22px;
+    }
+    .first-section{
+        padding: 0;
+    }
+    .headline h1{
+        font-family: Inter;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 48.5px;
+        letter-spacing: -1px;
+        text-align: center;
+        color: #000000;
+    }
+    .headline-div{
+        flex-direction: column;
+        row-gap: 16px;
+    }
+    .first-section-photo{
+        width: 696px;
+        height: 499px;
+    }
+    .section-two{
+        flex-direction: column;
+
+    }
+    .feature{
+        width: 744px;
+        height: 138px;
+        justify-content: center;
+        align-items: center;
+    }
+    .feature-p{
+        text-align: center;
+    }
+    .section-three{
+        padding: 24px 0;
+        column-gap: 0;
+    }
+    .section-three-photo{
+        width: 696px;
+        height: 550px;
+    }
+    .visitors{
+        row-gap: 29px;
+        flex-direction: column;
+        width: 696px;
+        height: 343px;
+        justify-content: center;
+    }
+    .visitors-pa{
+        margin-bottom: 21px;
+    }
+    .visitors h1{
+        text-align: center;
+        width: 696px;
+    }
+    .visitors p{
+        text-align: center;
+    }
+    .section-four{
+        height: 500px;
+    }
+    .section-four button{
+        margin-top: 0;
+    }
+    .footer{
+        row-gap: 20px;
+    }
+    .logo-f h1{
+        width: 155.67px;
+    }
+    .footer-navigation{
+        width: 155.67px;
+    }
+}
